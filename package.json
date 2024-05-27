@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "yarn workspace @agney/playground start",
+    "start": "yarn workspace @mondalbidisha/playground start",
     "start-example": "yarn workspace example start",
-    "build": "yarn workspace @agney/playground build",
-    "test": "yarn workspace @agney/playground test",
+    "build": "yarn workspace @mondalbidisha/playground build",
+    "test": "yarn workspace @mondalbidisha/playground test",
     "prepare": "husky install"
   },
   "workspaces": [
