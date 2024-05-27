@@ -12,7 +12,7 @@
     "author": "Bidisha Mondal",
     "license": "MIT",
     "dependencies": {
-      "@agney/playground": "*",
+      "@mondalbidisha/playground": "*",
       "babel-polyfill": "^6.26.0",
       "react": "^17.0.2",
       "react-dom": "^17.0.2"

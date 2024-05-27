@@ -7,7 +7,7 @@ import { styled } from "goober";
 import { IEditorTabs } from "../types";
 
 const EditorWrapper = styled("div")`
-  background-color: ${(props) => props.theme.editor.backgroundColor};
+  background-color: #222;
   color: ${(props) => props.theme.editor.color};
   overflow-y: auto !important;
   font-family: ${(props) => props.theme.editor.fontFamily};

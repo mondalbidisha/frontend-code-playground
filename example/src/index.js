@@ -2,24 +2,19 @@ import React from "react";
 import { render } from "react-dom";
 import "babel-polyfill";
 import "@reach/tabs/styles.css";
-import Playground from "@agney/playground";
+import Playground from "@mondalbidisha/playground";
 
 const App = () => {
   const snippet = {
-    markup: `<div id=app />`,
-    css: `div { color: red }`,
-    javascript: `import { h, Component, render } from 'preact';
-import htm from 'htm';
-
-const html = htm.bind(h);
-
-const app = html\`
-  <div>
-    <p>Hello World from Playground!</p>
-    <input type="text" />
-  </div>\`
-
-render(app, document.getElementById('app'));
+    markup: `<div id="myelement">Old Text</div>`,
+    css: `div { color: blue; font-size: 30px }`,
+    javascript: `function changeContent () {
+      
+          var myelement = document.getElementById("myelement");
+          myelement.innerHTML= "New Text";
+        }
+  
+       window.onload = changeContent ;
     `,
   };
   return (
