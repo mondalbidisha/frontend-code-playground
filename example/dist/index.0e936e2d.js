@@ -2966,16 +2966,17 @@ const App = ()=>{
         css: `div { color: blue; font-size: 30px }`,
         javascript: `function changeContent () {
       
-          var myelement = document.getElementById("myelement");
-          myelement.innerHTML= "New Text";
-        }
-  
-       window.onload = changeContent ;
+      var myelement = document.getElementById("myelement");
+      myelement.innerHTML= "New Text";
+      console.log("Hello World")
+    }
+      
+    window.onload = changeContent ;
     `
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
-            width: "80%",
+            width: "100%",
             margin: "0 auto"
         },
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _playgroundDefault.default), {
@@ -2986,12 +2987,12 @@ const App = ()=>{
             transformJs: true
         }, void 0, false, {
             fileName: "example/src/index.js",
-            lineNumber: 22,
+            lineNumber: 23,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "example/src/index.js",
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined);
 };
@@ -2999,7 +3000,7 @@ _c = App;
 const rootEl = document.getElementById("root");
 (0, _reactDom.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "example/src/index.js",
-    lineNumber: 34,
+    lineNumber: 35,
     columnNumber: 8
 }, undefined), rootEl);
 var _c;
