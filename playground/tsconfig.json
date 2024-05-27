@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "jsx": "react",
+      "lib": ["es2017", "dom"],
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "Node",
+      "typeRoots": [
+        "./node_modules/@types",
+        "../node_modules/@types",
+        "src/types"
+      ]
+    },
+    "include": ["src/types"]
+  }
