@@ -17,6 +17,7 @@
     "husky": "^6.0.0",
     "prettier": "^2.4.1",
     "pretty-quick": "^3.1.1",
+    "process": "^0.11.10",
     "typescript": "^4.4.4"
   },
   "repository": {
@@ -30,4 +31,3 @@
   },
   "homepage": "https://github.com/mondalbidisha/frontend-code-playground#readme"
 }
-

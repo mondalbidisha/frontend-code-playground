@@ -1,0 +1,44 @@
+:root {
+  --reach-tabs: 1;
+}
+
+[data-reach-tabs][data-orientation="vertical"] {
+  display: flex;
+}
+
+[data-reach-tab-list] {
+  background: #0000000d;
+  display: flex;
+}
+
+[data-reach-tab-list][aria-orientation="vertical"] {
+  flex-direction: column;
+}
+
+[data-reach-tab] {
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #0000;
+  margin: 0;
+  padding: .25em .5em;
+  display: inline-block;
+}
+
+[data-reach-tab]:active {
+  background: #0000000d;
+}
+
+[data-reach-tab]:disabled {
+  opacity: .25;
+  cursor: default;
+}
+
+[data-reach-tab][data-selected] {
+  border-bottom-color: currentColor;
+}
+/*# sourceMappingURL=index.bdf71207.css.map */
