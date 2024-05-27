@@ -10,15 +10,16 @@ const App = () => {
     css: `div { color: blue; font-size: 30px }`,
     javascript: `function changeContent () {
       
-          var myelement = document.getElementById("myelement");
-          myelement.innerHTML= "New Text";
-        }
-  
-       window.onload = changeContent ;
+      var myelement = document.getElementById("myelement");
+      myelement.innerHTML= "New Text";
+      console.log("Hello World")
+    }
+      
+    window.onload = changeContent ;
     `,
   };
   return (
-    <div style={{ width: "80%", margin: "0 auto" }}>
+    <div style={{ width: "100%", margin: "0 auto" }}>
       <Playground
         initialSnippet={snippet}
         defaultEditorTab="javascript"
